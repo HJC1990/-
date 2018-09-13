@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "VolumeView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
+    VolumeView *volume = [[VolumeView alloc] initWithFrame:CGRectMake(200, 200, 160, 160)];
+    volume.columnW = 44;
+    volume.columnH = 100;
+    volume.cornerRad = 12;
+    [self.view addSubview:volume];
 }
 
 

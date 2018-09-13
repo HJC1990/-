@@ -15,6 +15,8 @@
 		226BF123214A70CA0059ED51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 226BF122214A70CA0059ED51 /* main.m */; };
 		226BF12D214A70CB0059ED51 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 226BF12C214A70CB0059ED51 /* ______Tests.m */; };
 		226BF138214A70CB0059ED51 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 226BF137214A70CB0059ED51 /* ______UITests.m */; };
+		226BF147214A711F0059ED51 /* VolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 226BF146214A711F0059ED51 /* VolumeView.m */; };
+		226BF14A214A72140059ED51 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 226BF149214A72140059ED51 /* UIColor+HexColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		226BF133214A70CB0059ED51 /* 仿音量柱形图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿音量柱形图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		226BF137214A70CB0059ED51 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		226BF139214A70CB0059ED51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		226BF145214A711F0059ED51 /* VolumeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VolumeView.h; sourceTree = "<group>"; };
+		226BF146214A711F0059ED51 /* VolumeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VolumeView.m; sourceTree = "<group>"; };
+		226BF148214A72140059ED51 /* UIColor+HexColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		226BF149214A72140059ED51 /* UIColor+HexColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				226BF114214A70C60059ED51 /* AppDelegate.m */,
 				226BF116214A70C60059ED51 /* ViewController.h */,
 				226BF117214A70C70059ED51 /* ViewController.m */,
+				226BF145214A711F0059ED51 /* VolumeView.h */,
+				226BF146214A711F0059ED51 /* VolumeView.m */,
+				226BF148214A72140059ED51 /* UIColor+HexColor.h */,
+				226BF149214A72140059ED51 /* UIColor+HexColor.m */,
 				226BF119214A70C70059ED51 /* Main.storyboard */,
 				226BF11C214A70CA0059ED51 /* Assets.xcassets */,
 				226BF11E214A70CA0059ED51 /* LaunchScreen.storyboard */,
@@ -264,6 +274,8 @@
 			files = (
 				226BF118214A70C70059ED51 /* ViewController.m in Sources */,
 				226BF123214A70CA0059ED51 /* main.m in Sources */,
+				226BF14A214A72140059ED51 /* UIColor+HexColor.m in Sources */,
+				226BF147214A711F0059ED51 /* VolumeView.m in Sources */,
 				226BF115214A70C60059ED51 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +448,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DQFEA2B5H2;
 				INFOPLIST_FILE = "仿音量柱形图/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DQFEA2B5H2;
 				INFOPLIST_FILE = "仿音量柱形图/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
